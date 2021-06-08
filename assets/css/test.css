@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.h2-container {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  z-index: -8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 130vh;
+  object-fit: cover;
+}
+
+/* ===========================================-- */
+
+.one {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120vh;
+  z-index: -11;
+}
+
+.one-h2 {
+  font-size: 35vh;
+  font-family: "Poppins";
+}
+
+.bg1 {
+  z-index: -10;
+}
+
+.girl1 {
+  z-index: -7;
+}
+
+.rock1 {
+  z-index: -7;
+}
+
+/* ======================== */
+
+.interval1 {
+  position: absolute;
+  top: 130vh;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 10vh;
+  z-index: 1;
+  background: black;
+}
+/* ================================================= */
+
+.two {
+  height: 120vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  position: absolute;
+  top: 140vh;
+  left: 0;
+  /* height: 130vh; */
+}
+
+.bg2 {
+  z-index: -6;
+}
+
+.moon2 {
+  z-index: -5;
+}
+
+#two-h2-container {
+  z-index: -5;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mountain2 {
+  z-index: -4;
+}
+
+.road2 {
+  z-index: -3;
+}
+
+/* ======================== */
+
+.interval2 {
+  position: absolute;
+  top: 270vh;
+  left: 0;
+  height: 10vh;
+  z-index: 1;
+  background: black;
+}
+
+/* ===============================-- */
+
+.three {
+  background: gray;
+  /* height: 120vh; */
+  width: 100%;
+  overflow-x: hidden;
+
+  position: absolute;
+  top: 280vh;
+  left: 0;
+  height: 130vh;
+}
